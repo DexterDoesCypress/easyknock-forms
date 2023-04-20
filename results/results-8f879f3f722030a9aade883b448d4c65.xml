@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.8080" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-20T02:26:00" tests="0" file="cypress/integration/features/field-validation.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests to verify field validation triggers as expected" timestamp="2023-04-20T02:26:00" tests="3" time="23.8080" failures="0">
+    <testcase name="Tests to verify field validation triggers as expected Trigger field validation - Street Address" time="8.0440" classname="Trigger field validation - Street Address">
+    </testcase>
+    <testcase name="Tests to verify field validation triggers as expected Trigger field validation - City" time="7.8370" classname="Trigger field validation - City">
+    </testcase>
+    <testcase name="Tests to verify field validation triggers as expected Trigger field validation - Zip Code" time="7.9270" classname="Trigger field validation - Zip Code">
+    </testcase>
+  </testsuite>
+</testsuites>
