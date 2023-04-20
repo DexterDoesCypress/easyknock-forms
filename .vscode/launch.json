@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "1.0.0",
+    "configurations": [
+      {
+        "name": "practice-hello-world",
+        "request": "launch",
+        "type": "node",
+        "restart": true,
+        "runtimeExecutable": "node",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen",
+        "args": ["${workspaceFolder}\\dist\\dev\\server.js"],
+        "program": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
+        "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+        "skipFiles": ["<node_internals>/**"],
+        "env": {
+          "port": "3065",
+          "NODE_TLS_REJECT_UNAUTHORIZED": "0",
+          "JAEGER_AGENT_PORT": "6832",
+          "JAEGER_SERVICE_NAME": "jaeger",
+          "JAEGER_AGENT_HOST": "localhost"
+        }
+      },
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Debugger - Listing Contacts Leads",
+        "program": "${workspaceFolder}\\dist\\dev\\server.js",
+        "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+        "env": {
+          "port": "3065"
+        }
+      }
+    ]
+  }
