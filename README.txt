@@ -5,7 +5,7 @@ Assignment:
 
 ***Accidentally forgot to update Node.js version before authoring scripts
    - Authored using Node v12.18.4 (retroactive nature of node.js shouldn't be an issue)
-   
+
 Features included:
  - Dynamic testing functions in cypress/integration/common/common_methods.ts.
 
@@ -30,6 +30,9 @@ Features included:
     - Includes user's decision to learn more about EasyKnock.
     - Stubbed API calls on 'POST','api.segment.io/v1/p' and 'POST','api.segment.io/v1/t'.
     - Includes "back" via browser window to verify user can pick up where they left off.
+    - First/Last name field validation scenarios fail.
+      - The assertion is that validation is triggered when users enter special character.
+      - Actual Results: True-negative, bug, issue, or defect
 
 Results:
  - practice-hello-world/Results
