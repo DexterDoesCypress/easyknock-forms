@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.7030" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-20T02:25:43" tests="0" file="cypress/integration/features/address-form.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests to see if your home qualifies" timestamp="2023-04-20T02:25:43" tests="6" time="9.7030" failures="0">
+    <testcase name="Tests to see if your home qualifies User visits EasyKnock webpage" time="5.4590" classname="User visits EasyKnock webpage">
+    </testcase>
+    <testcase name="Tests to see if your home qualifies User types Address and selects typeahead result" time="3.0490" classname="User types Address and selects typeahead result">
+    </testcase>
+    <testcase name="Tests to see if your home qualifies Verify Google autofill for Street Address" time="0.9870" classname="Verify Google autofill for Street Address">
+    </testcase>
+    <testcase name="Tests to see if your home qualifies Verify Google autofill for City" time="0.0600" classname="Verify Google autofill for City">
+    </testcase>
+    <testcase name="Tests to see if your home qualifies Verify Google autofill for Zip Code" time="0.0540" classname="Verify Google autofill for Zip Code">
+    </testcase>
+    <testcase name="Tests to see if your home qualifies &quot;Continue&quot; button is enabled when validation is met" time="0.0940" classname="&quot;Continue&quot; button is enabled when validation is met">
+    </testcase>
+  </testsuite>
+</testsuites>

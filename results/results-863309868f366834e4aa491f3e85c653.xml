@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="38.6280" tests="22" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-04-20T02:26:54" tests="0" file="cypress/integration/features/navigation.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Tests to ensure successful user flow" timestamp="2023-04-20T02:26:54" tests="22" time="38.6280" failures="2">
+    <testcase name="Tests to ensure successful user flow User completes Step 1 to see if they qualify" time="7.8050" classname="User completes Step 1 to see if they qualify">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User proceeds to Step 2" time="0.5440" classname="User proceeds to Step 2">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User navigates &quot;Back&quot; to double check Address fields" time="0.1800" classname="User navigates &quot;Back&quot; to double check Address fields">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Address form fields persist proper values" time="0.6120" classname="Address form fields persist proper values">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User returns to Step 2" time="0.2990" classname="User returns to Step 2">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Verify Step 2 watermarks/labels are accurate" time="0.0780" classname="Verify Step 2 watermarks/labels are accurate">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User populates &quot;Estimated Home Value&quot; field" time="0.3900" classname="User populates &quot;Estimated Home Value&quot; field">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User populates &quot;Mortgage Balance&quot; field" time="0.3240" classname="User populates &quot;Mortgage Balance&quot; field">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User populates &quot;Estimated Cash Needed&quot; field" time="0.3970" classname="User populates &quot;Estimated Cash Needed&quot; field">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User forgets to complete first field" time="0.0700" classname="User forgets to complete first field">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User selects their home type" time="0.3330" classname="User selects their home type">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User proceeds to Step 3" time="0.2340" classname="User proceeds to Step 3">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User is on Step 3" time="0.2050" classname="User is on Step 3">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User indicates whether or not they plan to move" time="0.2160" classname="User indicates whether or not they plan to move">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User is directed to Step 5 after clicking &quot;No&quot;" time="0.3740" classname="User is directed to Step 5 after clicking &quot;No&quot;">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Click EasyKnock button to learn more" time="11.2120" classname="Click EasyKnock button to learn more">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User learns more then returns to &apos;Get Qualified&apos;" time="4.0530" classname="User learns more then returns to &apos;Get Qualified&apos;">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow User confirms they are still on Step 5" time="0.4550" classname="User confirms they are still on Step 5">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Step 5 - user adds contact information" time="1.5210" classname="Step 5 - user adds contact information">
+    </testcase>
+    <testcase name="Tests to ensure successful user flow First Name field validation is triggered" time="4.5190" classname="First Name field validation is triggered">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[class=&apos;MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nvf7g0&apos;]`, but never found it. Queried from element: &lt;div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.styles__OutlinedInput-sc-iixuho-2.lgttig.css-1h01f6c&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nvf7g0']`, but never found it. Queried from element: <div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.styles__OutlinedInput-sc-iixuho-2.lgttig.css-1h01f6c>
+    at CommonMethods.fieldValidation (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:39108:14)
+    at Context.eval (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:39381:12)
+    at Context.resolveAndRunStepDefinition (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:11771:29)
+    at Context.eval (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:11052:35)]]></failure>
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Last Name field validation is triggered" time="4.5100" classname="Last Name field validation is triggered">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[class=&apos;MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nvf7g0&apos;]`, but never found it. Queried from element: &lt;div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.styles__OutlinedInput-sc-iixuho-2.lgttig.css-1h01f6c&gt;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class='MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nvf7g0']`, but never found it. Queried from element: <div.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.styles__OutlinedInput-sc-iixuho-2.lgttig.css-1h01f6c>
+    at CommonMethods.fieldValidation (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:39108:14)
+    at Context.eval (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:39381:12)
+    at Context.resolveAndRunStepDefinition (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:11771:29)
+    at Context.eval (https://secure-stg.easyknock.com/__cypress/tests?p=cypress\integration\features\navigation.feature:11052:35)]]></failure>
+    </testcase>
+    <testcase name="Tests to ensure successful user flow Email Address field validation is triggered" time="0.2970" classname="Email Address field validation is triggered">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.2900" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-20T02:26:34" tests="0" file="cypress/integration/features/labels-fields.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Required elements and objects" timestamp="2023-04-20T02:26:34" tests="4" time="12.2900" failures="0">
+    <testcase name="Required elements and objects Verify Header buttons and text" time="3.8190" classname="Verify Header buttons and text">
+    </testcase>
+    <testcase name="Required elements and objects Verify &quot;Street Address&quot; watermark/label exists" time="2.9940" classname="Verify &quot;Street Address&quot; watermark/label exists">
+    </testcase>
+    <testcase name="Required elements and objects Verify &quot;City&quot; watermark/label exists" time="2.8930" classname="Verify &quot;City&quot; watermark/label exists">
+    </testcase>
+    <testcase name="Required elements and objects Verify &quot;Zip Code&quot; watermark/label exists" time="2.5840" classname="Verify &quot;Zip Code&quot; watermark/label exists">
+    </testcase>
+  </testsuite>
+</testsuites>
