@@ -1,0 +1,12 @@
+node_modules/
+dist/
+**/.DS_Store
+src/generated
+coverage
+**/i18n/*.ts
+**/i18n/react-i18n/**
+yarn-error.log
+cypress/videos/**/**.ts.mp4
+debug.log
+"generate-i18n --resources='./src/i18n' --generated='./i18n' --withReact=true --mTranslate=true"
+rimraf ./dist

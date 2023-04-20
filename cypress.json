@@ -1,0 +1,20 @@
+{
+    "baseUrl": "https://secure-stg.easyknock.com/getoffer",
+    "browser": "chrome",
+    "viewportWidth": 1920,
+    "viewportHeight": 2000,
+    "testFiles": "**/*.feature",
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "results/results-[hash].xml"
+    },
+    "requestTimeout" : 5000,
+    "numTestsKeptInMemory": 0,
+    "responseTimeout" : 5000,
+    "pageLoadTimeout": 12000,
+    "retries": {
+      "runMode": 2,
+      "openMode": 2
+    }
+  }
+  
